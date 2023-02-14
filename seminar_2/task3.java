@@ -1,6 +1,6 @@
 package seminar_2;
 
-public class Task3 {
+public class task3 {
     public static void main(String[] args) {
         String input_data = "шалаш";
         System.out.println(check_palindrom(input_data));

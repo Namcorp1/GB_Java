@@ -2,7 +2,7 @@ package homework_1;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class task1 {
     public static void main(String[] args) {
         // Написать программу вычисления n-ого треугольного числа.
         // От себя решил добавить также проверку на то, является ли число треугольным.

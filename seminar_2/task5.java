@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.logging.*;
 
-public class Task5 {
+public class task5 {
     public static void main(String[] args) {
         /*
          Напишите метод, который вернет содержимое текущей папки в виде массива строк.

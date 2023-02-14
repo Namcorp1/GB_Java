@@ -1,6 +1,6 @@
 package seminar_2;
 
-public class Task1{
+public class task1{
     public static void main(String[] args) {
         int num = 64;
         char sym1 = 'h';
