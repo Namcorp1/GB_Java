@@ -10,15 +10,18 @@ public class task1 {
         Scanner answer = new Scanner(System.in);
         System.out.print("Введите вариант задачи: ");
         int var = answer.nextInt();
-        Scanner num_for_task = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        int num = num_for_task.nextInt();
         if (var == 1) {
+            Scanner num_for_task = new Scanner(System.in);
+            System.out.print("Введите число: ");
+            int num = num_for_task.nextInt();
             System.out.println(triangle_number(num));
         } else if (var == 2) {
+            Scanner num_for_task = new Scanner(System.in);
+            System.out.print("Введите число: ");
+            int num = num_for_task.nextInt();
             System.out.println(check_triangle_number(num));
-        } else {
-            System.out.println("Такого варианта нету, до свидания!");
+        } else{
+            System.out.println("Нет такого варианта, до свидания!");       
         }
     }
 
