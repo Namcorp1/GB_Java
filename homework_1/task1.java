@@ -28,18 +28,16 @@ public class task1 {
         return result;
     }
 
-    private static boolean check_triangle_number(int num) {
+    private static String check_triangle_number(int num) {
         double check = Math.pow(8 * num + 1, 0.5) - 1;
+        String res = "";
         if (check % 2 == 0) {
             check /= 2;
             int n = (int) check;
-            String res = String.format("Число является треугольным %d -> %d", num, n);
-            System.out.println(res);
-            return true;
+            res = String.format("Число является треугольным %d -> %d", num, n);
         } else {
-            String res = String.format("Число %d не является треугольным", num);
-            System.out.println(res);
-            return false;
+            res = String.format("Число %d не является треугольным", num);
         }
+        return res;
     }
 }
