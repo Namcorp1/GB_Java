@@ -1,0 +1,34 @@
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: [12, 13, 8, 7, 16, 7, 13, 19, 19, 8]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 1: [12, 8, 13, 7, 16, 7, 13, 19, 19, 8]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 2: [12, 8, 7, 13, 16, 7, 13, 19, 19, 8]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 3: [12, 8, 7, 13, 7, 16, 13, 19, 19, 8]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 4: [12, 8, 7, 13, 7, 13, 16, 19, 19, 8]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 5: [12, 8, 7, 13, 7, 13, 16, 19, 8, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 6: [8, 12, 7, 13, 7, 13, 16, 19, 8, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 7: [8, 7, 12, 13, 7, 13, 16, 19, 8, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 8: [8, 7, 12, 7, 13, 13, 16, 19, 8, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 9: [8, 7, 12, 7, 13, 13, 16, 8, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 10: [7, 8, 12, 7, 13, 13, 16, 8, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 11: [7, 8, 7, 12, 13, 13, 16, 8, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 12: [7, 8, 7, 12, 13, 13, 8, 16, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 13: [7, 7, 8, 12, 13, 13, 8, 16, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 14: [7, 7, 8, 12, 13, 8, 13, 16, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 15: [7, 7, 8, 12, 8, 13, 13, 16, 19, 19]
+февр. 17, 2023 12:16:56 AM homework_2.task2 BubbleSort
+INFO: шаг 16: [7, 7, 8, 8, 12, 13, 13, 16, 19, 19]
