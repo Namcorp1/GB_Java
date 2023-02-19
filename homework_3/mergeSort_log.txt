@@ -1,0 +1,14 @@
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [8, 100]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [1, 25]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [1, 8, 25, 100]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [79, 174]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [26, 153]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [26, 79, 153, 174]
+февр. 19, 2023 6:10:05 PM homework_3.mergeSort mergeSortMethod
+INFO: [1, 8, 25, 26, 79, 100, 153, 174]
