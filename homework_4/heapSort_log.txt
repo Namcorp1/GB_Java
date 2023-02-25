@@ -1,0 +1,26 @@
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [3, 1, 9, 4, 5, 8, 2, 7, 6]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort createHeap
+INFO: [3, 1, 9, 7, 5, 8, 2, 4, 6]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort createHeap
+INFO: [3, 1, 9, 7, 5, 8, 2, 4, 6]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort createHeap
+INFO: [3, 7, 9, 6, 5, 8, 2, 4, 1]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort createHeap
+INFO: [9, 7, 8, 6, 5, 3, 2, 4, 1]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [8, 7, 3, 6, 5, 1, 2, 4, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [7, 6, 3, 4, 5, 1, 2, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [6, 5, 3, 4, 2, 1, 7, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [5, 4, 3, 1, 2, 6, 7, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [4, 2, 3, 1, 5, 6, 7, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [3, 2, 1, 4, 5, 6, 7, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [2, 1, 3, 4, 5, 6, 7, 8, 9]
+февр. 26, 2023 12:07:23 AM homework_4.piramidSort main
+INFO: [1, 2, 3, 4, 5, 6, 7, 8, 9]

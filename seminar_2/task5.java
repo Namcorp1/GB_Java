@@ -14,7 +14,7 @@ public class task5 {
          */
         String[] files = stringFiles();
         //File output = new File(".");
-        writeToFile(files);
+        //writeToFile(files);
 
     }
     public static String[] stringFiles(){
@@ -22,20 +22,20 @@ public class task5 {
         String[] list = file.list();
         return list;
     }
-    public static void writeToFile(String[] fileStrings){
-        try {
-            FileWriter fileWriter = new FileWriter("files.txt");
-            for (String content : fileStrings) {
-                fileWriter.write(content + "\n");
-            }
-            fileWriter.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            // запись ошибки в лог-файл
-            File logFile = new File("log.txt");
-            FileWriter logWriter = new FileWriter(logFile, true);
-            logWriter.write(e.getMessage());
-            logWriter.close();
-        }    
-    }
+    // public static void writeToFile(String[] fileStrings){
+    //     try {
+    //         FileWriter fileWriter = new FileWriter("files.txt");
+    //         for (String content : fileStrings) {
+    //             fileWriter.write(content + "\n");
+    //         }
+    //         fileWriter.close();
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //         // запись ошибки в лог-файл
+    //         File logFile = new File("log.txt");
+    //         FileWriter logWriter = new FileWriter(logFile, true);
+    //         logWriter.write(e.getMessage());
+    //         logWriter.close();
+    //     }    
+    // }
 }
