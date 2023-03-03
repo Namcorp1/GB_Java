@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
         Labirint labirint = new Labirint(Labirint.sample);
+        int[][] solution = Labirint.copyLabirint(Labirint.sample);
         Labirint.printLabirint(Labirint.sample);
         Point startPoint = Point.Marker(Labirint.sample);
         Point finishPoint = Point.Marker(Labirint.sample);
 //        Point startPoint = new Point(1,1);
 //        Point finishPoint = new Point(5,4);
         FillLabirint fillLabirint = new FillLabirint(startPoint,finishPoint);
-        Labirint.sample[startPoint.x][startPoint.y] += 1;
-        Labirint.sample[finishPoint.x][finishPoint.y] -= 2;
+        solution[startPoint.x][startPoint.y] += 1;
+        solution[finishPoint.x][finishPoint.y] -= 2;
+        Labirint.printLabirint(solution);
+        FillLabirint.Algorithm(solution,fillLabirint.startPoint);
+        Labirint.printLabirint(solution);
+        Way.FindWay(solution,Labirint.sample,fillLabirint.endPoint);
         Labirint.printLabirint(Labirint.sample);
-        FillLabirint.Algorithm(Labirint.sample,fillLabirint.startPoint);
-        Labirint.printLabirint(Labirint.sample);
-        int result = Way.FindWay(Labirint.sample,fillLabirint.endPoint);
-        Labirint.printLabirint(Labirint.sample);
-        System.out.println("Длина пути равна " + result);
     }
 }

@@ -12,8 +12,8 @@ public class Point {
         Point start = new Point(0,0);
         Random random = new Random();
         while(labirint[start.x][start.y] != 0){
-            start.x = random.nextInt(1,labirint[0].length - 1);
-            start.y = random.nextInt(1,labirint.length - 1);
+            start.x = random.nextInt(1,labirint.length - 1);
+            start.y = random.nextInt(1,labirint[0].length - 1);
         }
         return start;
     }
