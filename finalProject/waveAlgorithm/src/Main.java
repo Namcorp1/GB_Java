@@ -5,8 +5,6 @@ public class Main {
         Labirint.printLabirint(Labirint.sample);
         Point startPoint = Point.Marker(Labirint.sample);
         Point finishPoint = Point.Marker(Labirint.sample);
-//        Point startPoint = new Point(1,1);
-//        Point finishPoint = new Point(5,4);
         FillLabirint fillLabirint = new FillLabirint(startPoint,finishPoint);
         solution[startPoint.x][startPoint.y] += 1;
         solution[finishPoint.x][finishPoint.y] -= 2;
